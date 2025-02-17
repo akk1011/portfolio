@@ -19,12 +19,12 @@ function Projects({ darkMode, projects }) {
                     {project.period}
                   </p>
                 </div>
-                <a>
+                <a
                   href={project.github}
                   className={`${darkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-gray-900'}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                
+                >
                   <Github size={20} />
                 </a>
               </div>
