@@ -9,10 +9,10 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'} transition-colors duration-200`}>
+    <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'} transition-colors duration-200 overflow-x-hidden`}>
       <Navigation 
         darkMode={darkMode} 
         setDarkMode={setDarkMode} 
@@ -29,14 +29,16 @@ function App() {
         experience={portfolioData.experience} 
       />
       
-      <Skills 
-        darkMode={darkMode} 
-        skills={portfolioData.skills} 
-      />
+      
       
       <Projects 
         darkMode={darkMode} 
         projects={portfolioData.projects} 
+      />
+
+      <Skills 
+        darkMode={darkMode} 
+        skills={portfolioData.skills} 
       />
       
       <Education 
