@@ -132,7 +132,7 @@ function Projects({ darkMode, projects }) {
                       Key Features
                     </h4>
                     <ul className="space-y-1">
-                      {project.keyFeatures.slice(0, 3).map((feature, idx) => (
+                      {project.keyFeatures.slice(0, 5).map((feature, idx) => (
                         <li 
                           key={idx}
                           className="text-gray-100 text-sm flex items-start"
@@ -159,7 +159,7 @@ function Projects({ darkMode, projects }) {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {project.techStack.slice(0, 6).map((tech, idx) => (
+                      {project.techStack.slice(0, 10).map((tech, idx) => (
                         <span 
                           key={idx}
                           className="px-2 py-1 bg-blue-900 bg-opacity-40 text-blue-200 rounded-lg text-sm"
