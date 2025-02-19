@@ -179,7 +179,7 @@ function Experience({ darkMode, experience }) {
                   <img 
                     src={companyLogos[exp.company]}
                     alt={`${exp.company} Logo`}
-                    className="w-32 md:w-40 h-16 md:h-20 object-contain mix-blend-multiply"
+                    className="w-32 md:w-40 h-16 md:h-20 object-contain brightness-100 z-10"
                   />
                 </div>
 
@@ -188,7 +188,7 @@ function Experience({ darkMode, experience }) {
                   <img 
                     src={companyLogos[exp.company]}
                     alt={`${exp.company} Logo`}
-                    className="w-32 h-16 object-contain mix-blend-multiply"
+                    className="w-32 h-16 object-contain brightness-100 z-10"
                   />
                 </div>
 
