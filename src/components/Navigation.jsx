@@ -172,7 +172,7 @@ export function Navigation({ darkMode, setDarkMode, personalInfo }) {
 
             {/* CV Download Button */}
             <a 
-              href="/data/KeerthiKrishnaAiyappanDS.pdf"
+              href="https://raw.githubusercontent.com/akk1011/portfolio/main/src/data/KeerthiKrishnaAiyappanDS.pdf"
               download
               className={`
                 flex items-center 
@@ -188,7 +188,7 @@ export function Navigation({ darkMode, setDarkMode, personalInfo }) {
             </a>
 
             <a 
-              href="/data/KeerthiKrishnaAiyappanDA.pdf"
+              href="https://raw.githubusercontent.com/akk1011/portfolio/main/src/data/KeerthiKrishnaAiyappanDA.pdf"
               download
               className={`
                 flex items-center 

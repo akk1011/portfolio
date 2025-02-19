@@ -50,34 +50,32 @@ function Experience({ darkMode, experience }) {
                   group
                 `}
               >
-                {/* Date Labels */}
-                <div className={`absolute -left-[160px] w-[100px] text-right pr-4
+               {/* Date Labels
+<div className={`absolute -left-[70px] top-[80px] w-[100px] text-left
   ${darkMode 
     ? 'text-gray-400 group-hover:text-white' 
     : 'text-black group-hover:text-gray-700'}
   transition-colors`}>
+  <div className="text-sm font-medium">
+    {startMonth} {startYear}
+  </div>
+  <div className="text-xs text-black-500 group-hover:text-black-300">
+    to
+  </div>
+  <div className="text-sm font-medium">
+    {endMonth} {endYear}
+  </div>
+</div> */}
 
-                  <div className="text-sm font-medium">
-                    {startMonth} {startYear}
-                  </div>
-                  <div className="text-xs text-black-500 group-hover:text-black-300">
-                    to
-                  </div>
-                  <div className="text-sm font-medium">
-                    {endMonth} {endYear}
-                  </div>
-                </div>
-
-                {/* Timeline Dot/Logo */}
-                <div className="absolute -left-[75px] z-10 
-                  flex items-center justify-center
-                ">
-                  <img 
-                    src={companyLogos[exp.company]}
-                    alt={`${exp.company} Logo`}
-                    className="w-20 h-20 object-contain mix-blend-multiply"
-                  />
-                </div>
+{/* Timeline Dot/Logo */}
+<div className="absolute -left-[135px] z-10
+  flex items-center justify-center">
+  <img 
+    src={companyLogos[exp.company]}
+    alt={`${exp.company} Logo`}
+    className="w-40 h-20 object-contain mix-blend-multiply"
+  />
+</div>
 
                 {/* Experience Card */}
                 <div 
@@ -94,7 +92,7 @@ function Experience({ darkMode, experience }) {
                       {exp.role}
                     </h3>
                     <p className="text-gray-100">
-                      {exp.company} | {exp.location}
+                      {exp.company} | {exp.location} | {exp.period}
                     </p>
                   </div>
                   
