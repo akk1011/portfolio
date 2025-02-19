@@ -14,7 +14,7 @@ export const portfolioData = {
         role: "Data Strategy and Operations Intern",
         company: "GSK (ViiV Healthcare)",
         location: "Durham, NC, USA",
-        period: "Jun 2024 - Present",
+        period: "June 2024 - Present",
         highlights: [
           "Deployed a Hypothesis Testing algorithm in R, measuring the impact of a parallel data strategy on patient data stewardship on 3+ metrics in an Azure Databricks environment, validating a 5% reduction in data duplicates improving data reliability for healthcare analytics",
           "Automated the reporting and generation of 150+ slides of HIV claims data using Plotly and Databricks UI, reducing manual slide creation time by 80% and accelerating insights delivery for stakeholders",
@@ -27,7 +27,7 @@ export const portfolioData = {
         role: "Data Science and Analytics Associate",
         company: "NA Sportz Interactive",
         location: "Mumbai, MH, India",
-        period: "Nov 2021 - Jun 2023",
+        period: "November 2021 - June 2023",
         highlights: [
           "Engineered an Expected Goals predictive model using xGBoost and Gradient Boost with 8 features, transforming the company’s analytics capabilities by yielding an accuracy of 93% in predicting the likelihood of a shot ending in a goal",
           "Developed a multivariate A/B Testing model, using SciPy and Statsmodels, to optimize the MatchCentre icon placement on the home page of a client website, resulting in a 9% increase in page clicks",
@@ -41,7 +41,7 @@ export const portfolioData = {
         role: "Data Scientist",
         company: "BilledRight Healthcare Solutions",
         location: "Chennai, TN, India",
-        period: "Jun 2020 - May 2021",
+        period: "June 2020 - May 2021",
         highlights: [
           "Managed the Extract, Transform and Load of 10+ business processes using Glue and Athena within AWS, transforming business processes into data tables for reporting and dashboards",
           "Operated as the technical lead to build a health claims risk stratification model using Random Forest and Gradient Boost, assessing the risk of policyholders with 85% accuracy, enabling clients to set personalized insurance premiums",
@@ -275,13 +275,13 @@ export const portfolioData = {
           school: "Syracuse University",
           degree: "Master of Science in Applied Data Science",
           location: "Syracuse, NY, USA",
-          period: "Aug 2023 - May 2025"
+          period: "August 2023 - May 2025"
         },
         {
           school: "Bharathiar University",
           degree: "Bachelor of Science in Visual Communication and Electronic Media",
           location: "Coimbatore, TN, India",
-          period: "Aug 2016 - May 2019"
+          period: "June 2016 - May 2019"
         }
       ]
     }
